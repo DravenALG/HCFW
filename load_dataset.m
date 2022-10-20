@@ -346,7 +346,6 @@ function [train_param,XTrain,LTrain,LTrain_All,XQuery,LQuery,LQuery_All,K,K_All]
             seperate{6,1}=[8,9];
             seperate{7,1}=[11,12,13];
             seperate{8,1}=[14,15,16,17,18,19,20,21];
-     
             
             train_param.chunksize = cell(train_param.nchunks,1);
             train_param.test_chunksize = cell(train_param.nchunks,1);
